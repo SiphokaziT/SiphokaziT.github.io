@@ -1,0 +1,101 @@
+body{
+text-align:center;
+font-family: arial;
+font-size:18px;
+background:grey;
+		
+}
+.header{
+background:pink;
+color:grey;
+border-bottom:#ccc 3px solid;
+padding:20px;
+}
+
+.header,nav,div{
+	padding:1.2em;
+	
+}
+
+nav{
+	right;
+}
+nav,li,a{
+    text-decoration: none;
+    padding:4px;
+    color:pink;	
+}
+nav,li, a:visited{
+    color:pink;
+}
+*/
+nav,li,a:hover{
+    color:pink;
+}
+
+/*
+ul{
+	margin-left:70%;
+	margin-right:5%;
+}
+*/
+
+
+#button{
+	color:pink;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+}
+nav,li,a:hover{
+    color:hotpink;
+}
+
+ul ,li{
+	display:inline-block;
+	list-style-type:none;
+	text-align:left;
+
+	}
+
+
+input[type=text], select, textarea {
+    width: 20%;
+    padding: 12px;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: pink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:hotpink;
+}
+
+.header,article,nav,div{
+	padding:1.0em;
+
+}
+
+   
