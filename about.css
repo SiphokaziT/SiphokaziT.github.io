@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body{
+	background-color: grey;
+		
+}
+
+h1{
+  color:pink;
+  padding:20px;
+  text-align: center;
+
+}
+
+p{
+ color:pink;
+ padding:5px;
+
+}
+
+nav,li,a{
+   
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+}
+
+
+nav,a:visited{
+    color:pink;
+}
+
+nav,li,a:hover{
+    color:white;
+}
+
+.header,nav,div{
+	padding:0.5em;
+
+}
+#pageFooter{
+	grid-area:footer;
+	color:grey;
+	
+}
